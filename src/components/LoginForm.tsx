@@ -4,8 +4,8 @@ import { useDispatch } from "react-redux";
 import { loginRequest } from "../store/actions/auth";
 
 export default function LoginForm() {
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
+    const [email, setEmail] = useState('eve.holt@reqres.in');
+    const [password, setPassword] = useState('cityslicka');
 
     const dispatch = useDispatch();
 
