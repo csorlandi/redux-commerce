@@ -9,7 +9,7 @@ export default function LoginForm() {
 
         if (!email || !password) return;
 
-        alert('Opa!')
+
     }
 
     return (
